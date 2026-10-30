@@ -1,0 +1,20 @@
+# entornos de Python (se recrean con requirements)
+.venv/
+.venv-build/
+__pycache__/
+*.pyc
+
+# compilación del instalador (el setup.exe se sube a Releases, no al código)
+instalador/build/
+instalador/dist/
+instalador/salida/
+instalador/prueba/
+# binario de terceros: se descarga de su web oficial para compilar el instalador (ver instalador/README.md)
+instalador/terceros/TONE3000.vst3/
+
+# audios y capturas de las pruebas
+pruebas/salida/
+pruebas/capturas/
+
+# accesos directos locales
+*.lnk
